@@ -4,6 +4,7 @@
   "description": "Screenshot service for Kulp projects",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npx puppeteer browsers install chrome",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
